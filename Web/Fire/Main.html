@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <title>Fire</title>
+  </head>
+  <body>
+    <main>
+      <div id="FirePanel"></div>
+      <div class="button" onclick="checkAction(Fire.action.getWood)">
+        get wood
+        <div class="cooldown" style="width: 0%;"></div>
+      </div>
+
+      <div class="button" onclick="checkAction(Fire.action.gatherStones)">
+        gather Stones
+        <div class="cooldown" style="width: 0%;"></div>
+      </div>
+
+      <div class="button" onclick="checkAction(Fire.action.lightFire)">
+        stoke fire
+        <div class="cooldown" style="width: 0%;"></div>
+        <div class="tooltip bottom right">
+          <div class="row_key">wood</div>
+          <div class="row_val">10</div>
+        </div>
+      </div>
+      <pre class="resources"></pre>
+      <!--
+      <div id="FirePanel"></div>
+      <pre class="resources"></pre>
+      <div class="button">
+        Normal Button
+        <div class="cooldown"></div>
+      </div>
+
+      <div class="button disabled">
+        Disabled Button
+        <div class="cooldown"></div>
+      </div>-->
+    </main>
+    <script src="JavaScript/Script.js"></script>
+  </body>
+</html>
