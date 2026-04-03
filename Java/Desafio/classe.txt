@@ -1,0 +1,21 @@
+public class Produto
+{
+private String codigo;
+private String descricao;
+private String fornecedor;
+private String qtd;
+private String valor;
+
+public Produto() {}
+public void setcodigo(String _codigo) {codigo = _codigo;};
+public void setdescricao(String _descricao) {descricao = _descricao;};
+public void setfornecedor(String _fornecedor) {fornecedor = _fornecedor;};
+public void setqtd(String _qtd) {qtd = _qtd;};
+public void setvalor(String _valor) {valor = _valor;};
+
+public String getcodigo() {return codigo;};
+public String getdescricao() {return descricao;};
+public String getfornecedor() {return fornecedor;};
+public String getqtd() {return qtd;};
+public String getvalor() {return valor;};
+}
